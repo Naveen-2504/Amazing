@@ -1,0 +1,145 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: #171717;
+}
+.main{
+	position: relative;
+}
+
+.box{
+	border: 1px solid #363636;
+	position: relative;
+	top: 284px;
+	left:26%;
+	width: 16%;
+	height: 380px;
+	overflow: hidden;
+}
+
+img{
+	position: absolute;
+	left: 28%;
+	border-radius: 50%;
+	top: 12%;
+	width: 45%;
+}
+.hovertext{
+	position: absolute;
+	top: 102%;
+	left: 30%;
+	transition: 1s ease;
+	line-height: 2.1;
+	font-size: 14px;
+	color: white;
+}
+.maintext{
+	position: absolute;
+	top: 64%;
+	left: 22%;
+	transition: 1s ease;
+	color: #f7ac54;
+}
+.box:hover .cont{
+	border-top: 1px solid #f7ac54;
+	width: 20%;
+	border-left: 1px solid #f7ac54;
+	height: 20%;
+	transition: 0.5s ease-in-out;	
+
+}
+.cont{
+	border-top: 1px solid black;
+	width: 1%;
+	border-left: 1px solid black;
+	height: 1%;
+}
+.box:hover img{
+	width: 62px;
+	top: 12px;
+	left: 12px;
+	transition: 1s ease;	
+}	
+
+.box:hover .maintext{
+	position: absolute;
+	top: 134px;
+	left: -31px;
+	transform: rotate(90deg);
+}
+.box:hover .hovertext{
+	position: absolute;
+	top: 0%;
+	transition-delay: 1s;
+}
+.box2{
+	border: 1px solid #363636;
+	position: relative;
+	top: -97px;
+	left:42%;
+	width: 16%;
+	height: 381px;
+	overflow: hidden;
+}
+.box2:hover .cont{
+	border-top: 1px solid #f7ac54;
+	width: 20%;
+	border-left: 1px solid #f7ac54;
+	height: 20%;
+	transition: 0.5s ease-in-out;	
+
+}
+.box2:hover img{
+	width: 62px;
+	top: 12px;
+	left: 12px;
+	transition: 1s ease;	
+}	
+
+.box2:hover .maintext{
+	position: absolute;
+	top: 127px;
+	left: -31px;
+	transform: rotate(90deg);
+}
+.box2:hover .hovertext{
+	position: absolute;
+	top: 0%;
+	transition-delay: 1s;
+}
+.box3{
+	border: 1px solid #363636;
+	position: relative;
+	top: -479px;
+	left:58%;
+	width: 16%;
+	height: 379px;
+	overflow: hidden;
+}
+.box3:hover .cont{
+	border-top: 1px solid #f7ac54;
+	width: 20%;
+	border-left: 1px solid #f7ac54;
+	height: 20%;
+	transition: 0.5s ease-in-out;	
+
+}
+.box3:hover img{
+	width: 62px;
+	top: 12px;
+	left: 12px;
+	transition: 1s ease;	
+}	
+
+.box3:hover .maintext{
+	position: absolute;
+	top: 127px;
+	left: -31px;
+	transform: rotate(90deg);
+}
+.box3:hover .hovertext{
+	position: absolute;
+	top: 0%;
+	transition-delay: 1s;
+}
